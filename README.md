@@ -1,9 +1,10 @@
 # Letreiro do Raspberry Pi
 
-O presente software é um trabalho acadêmico desenvolvido na linguagem C que tem objetivo de simular uma aplicação do Raspberry Pi vulnerável ao Buffer Overflow
+O presente software é um trabalho acadêmico desenvolvido na linguagem C que tem objetivo de simular uma aplicação do Raspberry Pi vulnerável ao Buffer Overflow. O software recebe apenas um parâmetro que é o diretório do arquivo, caso não seja utilizado, é definido como padrão o "DADOS.txt". O Buffer Overflow ocorre quando o arquivo lido exceda a capacidade de 20 caracteres por linha.
 
 Autor: Vitor de Siqueira Cotta
-Estudante: Sistemas de Informação
+
+Graduando: Sistemas de Informação
 
 ## Instrução causadora do Buffer Overflow
 
