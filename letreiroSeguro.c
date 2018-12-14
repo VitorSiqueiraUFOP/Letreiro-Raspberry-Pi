@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
 
@@ -35,7 +36,7 @@ int main(int argc, char *argv[]) {
                         else if (leitor[0] == '\n')
                             break;
                         else
-                            strncat(linha, sizeof(linha) - strlen(linha) - 1, leitor);
+                            strncat(linha, leitor, sizeof(linha) - strlen(linha) - 1);
                     }
                         strcpy(TELA[i][j][k], linha);
                         strcpy(linha,"");
@@ -50,5 +51,6 @@ int main(int argc, char *argv[]) {
         }
         printf("\n\nAtualizando em 10 segundos.\n\n\n");
         sleep(10);
+		system("clear");
     }
 }

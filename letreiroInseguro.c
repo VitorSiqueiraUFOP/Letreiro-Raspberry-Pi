@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
 
@@ -50,5 +51,6 @@ int main(int argc, char *argv[]) {
         }
         printf("\n\nAtualizando em 10 segundos.\n\n\n");
         sleep(10);
+		system("clear");
     }
 }
