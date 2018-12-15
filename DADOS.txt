@@ -2,7 +2,7 @@ Bitcoin
 Valor: $4541.21
 Flutuacao: +11.5%
 Venda/24h: 253un
-Etherum
+Ethereum
 Valor: $132.53
 Flutuacao: -6.2%
 Venda/24h: 28974un
